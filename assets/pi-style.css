@@ -1,0 +1,42 @@
+/* Pi Plugin Styling */
+
+.pi-login-button,
+.pi-login-pay-button {
+    background-color: #8d4de8;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pi-login-button:hover,
+.pi-login-pay-button:hover {
+    background-color: #6b32c2;
+}
+
+.pi-login-container,
+.pi-login-pay-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pi-payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.pi-payment-table th,
+.pi-payment-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.pi-payment-table th {
+    background-color: #f0f0f5;
+    color: #333;
+}
